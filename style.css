@@ -82,11 +82,12 @@ main {
     min-width: 320px;
     max-width: 400px;
     margin: auto;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
 }
 
 .resumo {
     font-family: 'Montserrat', sans-serif;
-    font-size: .5em;
+    font-size: .4em;
     font-weight: 200;
     margin-top: -8px;
 }
@@ -162,26 +163,30 @@ hr {
 div.sub-image-1 {
     background-image: url(images/sub_andrade_web.jpg);
     width: 165px;
-    height: 126px;  
+    height: 126px; 
+    border-radius: 6px; 
     
 }
 
 div.sub-image-2 {
     background-image: url(images/sub_brava_2_web.jpg);
     width: 165px;
-    height: 126px;   
+    height: 126px;
+    border-radius: 6px;    
 }
 
 div.sub-image-3 {
     background-image: url(images/sub_fernando_web.jpg);
     width: 165px;
-    height: 126px;   
+    height: 126px;
+    border-radius: 6px;    
 }
 
 div.sub-image-4 {
     background-image: url(images/sub_polemica_web.jpg);
     width: 165px;
-    height: 126px;   
+    height: 126px;
+    border-radius: 6px;    
 }
 
 .sub-texto {
