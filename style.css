@@ -10,8 +10,7 @@
 :root {    
     --cor-brava1: #36558F;
     --cor-brava2: #40376E;
-    --cor-brava3: #EC9A29;   
-    --cor-brava3: #002fff;   
+    --cor-brava3: #EC9A29;        
 }
 
 * {
@@ -77,12 +76,12 @@ main {
     background-color: var(--cor-brava1);
     color: white;
     font-family: "globo";
-    font-size: 2em;
-    height: 80px;
+    font-size: 2.5em;
+    height: 120px;
     min-width: 320px;
     max-width: 400px;
     margin: auto;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
+   
 }
 
 .resumo {
@@ -90,6 +89,21 @@ main {
     font-size: .4em;
     font-weight: 200;
     margin-top: -8px;
+}
+
+.langs {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #40376E;
+    
+    
+}
+
+a > img {
+    padding: 5px;
+    
 }
 
 div.main-image {
@@ -101,7 +115,7 @@ div.main-image {
     letter-spacing: -.05em;
     line-height: 1.2em;
     height: 320px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .destaque {
