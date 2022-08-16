@@ -10,7 +10,8 @@
 :root {    
     --cor-brava1: #36558F;
     --cor-brava2: #40376E;
-    --cor-brava3: #EC9A29;    
+    --cor-brava3: #EC9A29;   
+    --cor-brava3: #002fff;   
 }
 
 * {
@@ -52,13 +53,12 @@ nav > a:hover {
 }
 
 .irb2 {
-    color: var(--cor-brava2);
+    color: var(--cor-brava2);    
 }
 
 .irb3 {
     color: var(--cor-brava1);   
-    border-right: none; 
-    
+    border-right: none;     
 }
 
 main {
