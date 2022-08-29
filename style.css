@@ -108,7 +108,8 @@ a > img {
 
 div.main-image {
     position: relative;
-    background-image: url(images/main_carlos_web.jpg);    
+    background-image: url(images/main_web.jpg); 
+    background-repeat: no-repeat;   
     font-family: "globo";
     font-size: 2em;
     color: white;
@@ -161,8 +162,8 @@ div.main-image {
 
 hr {    
     width: 320px;
-   margin-top: 5px;
-   margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .sub-materias {
@@ -175,15 +176,16 @@ hr {
 
 
 div.sub-image-1 {
-    background-image: url(images/sub_andrade_web.jpg);
+    background-image: url(images/sub_01_web.jpg);
     width: 165px;
     height: 126px; 
+    margin: auto;
     border-radius: 6px; 
-    
+    transition: .2s;              
 }
 
 div.sub-image-2 {
-    background-image: url(images/sub_brava_2_web.jpg);
+    background-image: url(images/sub_02_web.jpg);
     width: 165px;
     height: 126px;
     border-radius: 6px;    
